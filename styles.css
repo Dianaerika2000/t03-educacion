@@ -1,0 +1,53 @@
+:root {
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: orange;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --gris-claro: #DFE9F3;
+}
+/* CSS seccion 1*/
+h1, h2, h3 {
+    font-family: 'Krub', sans-serif;
+}
+h1 {
+    font-size: 3rem;
+    color: var(--blanco);
+    font-weight: bold;
+}
+.bg-section-1{
+    background-image: url(./images/bg-student.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    position: relative;
+    margin-bottom: 2rem;
+}
+.contenido-section-1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.col-center{
+    display: flex;
+    justify-content: center;
+}
+.div-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    background-color: var(--primario);
+    color: #FFFFFF;
+}
+.bi{
+    font-size: 60px;
+}
