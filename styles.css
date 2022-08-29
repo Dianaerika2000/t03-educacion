@@ -1,7 +1,7 @@
 :root {
     --blanco: #FFFFFF;
     --oscuro: #212121;
-    --primario: orange;
+    --primario: #ffc107;
     --secundario: #0097A7;
     --gris: #757575;
     --gris-claro: #DFE9F3;
@@ -63,3 +63,7 @@ h1 {
     text-align: justify;
 }
 
+/* Footer */
+footer {
+    background-color: var(--primario);
+}
